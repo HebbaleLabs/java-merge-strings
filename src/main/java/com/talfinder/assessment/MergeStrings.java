@@ -10,7 +10,7 @@ public class MergeStrings {
          * 3. Use the Run-Java command to run main method
          * 4. Use the BuildAndRunTests command to evaluate your solution
          */
-        return "asbtcuvwx";
+        return "";
     }
 
     public static void main(String[] args) {
