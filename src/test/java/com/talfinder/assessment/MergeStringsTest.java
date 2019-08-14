@@ -21,7 +21,7 @@ public class MergeStringsTest {
         this.expectedResult = expectedResult;
     }
 
-    @Parameterized.Parameters(name = "{index}: Test with First-String={0}, Second-String ={1}, Expected-Result is:{2} ")
+    @Parameterized.Parameters
     public static Collection<Object[]> input() {
         return Arrays.asList(new Object[][]{
                 {"abc", "stuvwx", "asbtcuvwx"},
