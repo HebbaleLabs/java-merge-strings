@@ -40,6 +40,6 @@ public class MergeStringsTest {
 
     @Test
     public void testMergeStrings() {
-        Assert.assertEquals(expectedResult, MergeStrings.merge(first, second));
+        Assert.assertEquals("input:first string- [" + first + "], second string- [" + second + "]", expectedResult, MergeStrings.merge(first, second));
     }
 }
